@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+ <!-- Navbar -->
+  <nav>
+    <!-- Logo -->
+    <div class="logo">
+      <div class="logo-circle"></div>
+      Coranu
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M10 2a8 8 0 105.32 14.69l4.75 4.75a1 1 0 101.41-1.41l-4.75-4.75A8 8 0 0010 2zm0 2a6 6 0 110 12A6 6 0 0110 4z"></path>
+      </svg>
+      <input type="text" placeholder="search...">
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Market</a>
+      <a href="#">Blog</a>
+      <a href="#">Career<span class="badge">hiring</span></a>
+    </div>
+
+    <!-- Get Started Button -->
+  <a class="get-started-btn" href="./login.html">Get Started →</a>
+  </nav>
+      <!-- Header -->
+  <div class="container">
+    <div class="header">
+      <a href="#" class="footer-link">See Coranu Tutorial →</a>
+      <h1>Insights from our team</h1>
+      <p>Powerful Trading Tools and Features for Experienced Investors</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="main-content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h3>Blog Topics</h3>
+        <ul>
+          <li>Company</li>
+          <li>Design</li>
+          <li>Technology</li>
+          <li>Crypto</li>
+          <li>Artificial Intelligence</li>
+          <li>Work</li>
+        </ul>
+
+        <h3>Guide and Tools</h3>
+        <ul>
+          <li>Guidelines</li>
+          <li>Mentorship</li>
+          <li>Tutorial</li>
+          <li>Training</li>
+          <li>Career</li>
+          <li>Self Care</li>
+        </ul>
+      </div>
+      <!-- Blog Section -->
+      <div class="blog-section">
+        <div class="trending-topics">
+          <span>Design Thinking</span>
+          <span>Technology</span>
+          <span>Web3</span>
+          <span>Programming</span>
+          <span>AI</span>
+        </div>
+
+        <!-- Blog Card 1 -->
+        <div class="blog-card">
+          <img src="imge/Frame 23.png" alt="Blog Image">
+          <div class="blog-details">
+            <p class="blog-meta">Mar 1</p>
+            <h4>Powerful Trading Tools and Features for Experienced Investors</h4>
+            <p>I'm always trying to think of new and interesting business ideas. I generally try to come up...</p>
+            <div class="blog-meta">
+              <span>Tools</span> · 7 min read
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Card 2 -->
+        <div class="blog-card">
+          <img src="imge/Frame 23.png" alt="Blog Image">
+          <div class="blog-details">
+            <p class="blog-meta">Jan 2</p>
+            <h4>We are implementing AI and Technology</h4>
+            <p>I'm always trying to think of new and interesting business ideas. I generally try to come up...</p>
+            <div class="blog-meta">
+              <span>AI</span> · 4 min read
+            </div>
+          </div>
+        </div>
+
+
+          <!-- Displaying the Created Posts -->
+          <div id="content" class="content">
+            <!-- Posts will be dynamically added here -->
+        </div>
+      
+<!-- Add this footer at the end of your file -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Newsletter Subscription -->
+    <div class="footer-newsletter">
+      <h3>Stay Updated</h3>
+      <h1>Join Our NewsLetter</h1>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</footer>
+<!-- Right Side Circle Image -->
+<div class="footer-image">
+  <img src="imge/Frame 23.png" alt="Newsletter Image" />
+</div>
+
+    
+
+      </div>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+  <script type="module" src="./welcome.js"></script>
+</body>
+</html>
